@@ -39,6 +39,7 @@ More detailed instructions can be found [here](https://help.github.com/articles/
 Whenever you begin work on a collaborative repository, it's important that you create a new branch. Not only is it proper git workflow, but it also keeps your changes organized and separated from the master branch so that you can easily submit and manage multiple pull requests for every task you complete.
 
 1. In your project-portfolio directory, create a new branch with your name by typing `git branch "YOUR-NAME"` and press Enter.
+3. Checkout your new branch, `git checkout YOUR-NAME`.
 2. Go into the `students.html` and make the following edits: 
 	* Change the heading from "Student #" to your name. 
 	* Add a description about yourself, including your school and your favorite part about coding. Feel free to add any additional information you'd like, such as hobbies, where you live, etc. 
