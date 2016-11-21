@@ -46,7 +46,6 @@ Whenever you begin work on a collaborative repository, it's important that you c
 	* Add a picture of yourself (preferrable) or an avatar to the img `src`. Please add the image to the `images` folder and reference the local path, i.e. `images/my-picture.jpg`.
 	* Update the `href` of the "View GitHub" button to your personal GitHub. Make sure to set `target="_blank"` so the url opens in a new tab. 
 
-
 ### 5. Create a pull request or _PR_
 
 At last, you’re ready to propose changes into the project! This is the final step in producing a fork of someone else’s project, and arguably the most important. 
@@ -55,6 +54,6 @@ At last, you’re ready to propose changes into the project! This is the final s
 2. Then commit the edited files by typing `git commit "YOUR-NAME edits"`.
 3. Push your branch with your edits by typing `git push -u origin HEAD`.
 4. Go to the [original project](https://github.com/barkco-scripted/project-portfolio) in GitHub and select "New Pull Request". 
-5. Make sure `master` is selected as the base and select your branch as the branch to compare it to and create a pull request! 
+5. Make sure `master` is selected as the base and select your branch as the branch to compare it to and create a pull request! 111
 
 gi
