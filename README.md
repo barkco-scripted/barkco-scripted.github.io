@@ -13,20 +13,14 @@ A fork is a copy of a repository. Forking a repository allows you to propose cha
 Right now, you have a fork of the project-portfolio repository, but you don't have the files in that repository on your computer. Let's create a clone of your fork locally on your computer.
 
 1. On GitHub, navigate to your fork of the project-portfolio repository.
-2. Under your repository name, click Clone or download.
-3. Copy the clone URL for the repository.
-4. Type git clone, and then paste the URL you copied in Step 3. It will look like this, with your GitHub username instead of `YOUR-USERNAME`:
-
-```
-git clone https://github.com/YOUR-USERNAME/project-portfolio.git
-```
+2. Under your repository name, click Clone or download and copy the clone URL for the repository.
+3. Paste the url in the "Git URL" input under the "Hosted Workspaces" tab.
 
 ### 3. Configure Git to sync your fork with the original repository
 
 When you fork a project in order to propose changes to the original repository, you can configure Git to pull changes from the original, or upstream, repository into the local clone of your fork.
 
-1. `cd` into your newly cloned project-portfolio repo.
-2. Type `git remote add upstream`, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
+1. From your project-portfolio repo, type `git remote add upstream`, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
 
 ```
 git remote add upstream https://github.com/barkco-scripted/project-portfolio.git
@@ -54,6 +48,6 @@ At last, you’re ready to propose changes into the project! This is the final s
 1. Add the files you've editing by typing `git add .`
 2. Then commit the edited files by typing `git commit "YOUR-NAME edits"`.
 3. Push your branch with your edits by typing `git push -u origin HEAD`.
-4. Go to the [original project](https://github.com/barkco-scripted/project-portfolio) in GitHub and select "New Pull Request". 
-5. Make sure `master` is selected as the base and select your branch as the branch to compare it to and create a pull request. 
+4. Go to the [original project](https://github.com/barkco-scripted/project-portfolio) in GitHub and open a pull request.
+5. Make sure `master` is selected as the base and select your forked copy branch as the branch to compare it to and create a pull request. 
 
