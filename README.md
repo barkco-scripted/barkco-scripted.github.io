@@ -54,6 +54,4 @@ At last, you’re ready to propose changes into the project! This is the final s
 2. Then commit the edited files by typing `git commit "YOUR-NAME edits"`.
 3. Push your branch with your edits by typing `git push -u origin HEAD`.
 4. Go to the [original project](https://github.com/barkco-scripted/project-portfolio) in GitHub and select "New Pull Request". 
-5. Make sure `master` is selected as the base and select your branch as the branch to compare it to and create a pull request! 111
-
-gi
+5. Make sure `master` is selected as the base and select your branch as the branch to compare it to and create a pull request.
