@@ -46,7 +46,7 @@ Whenever you begin work on a collaborative repository, it's important that you c
 At last, you’re ready to propose changes into the project! This is the final step in producing a fork of someone else’s project, and arguably the most important. 
 
 1. Add the files you've editing by typing `git add .`
-2. Then commit the edited files by typing `git commit "YOUR-NAME edits"`.
+2. Then commit the edited files by typing `git commit -m "YOUR-NAME edits"`.
 3. Push your branch with your edits by typing `git push -u origin HEAD`.
 4. Go to the [original project](https://github.com/barkco-scripted/project-portfolio) in GitHub and open a pull request.
 5. Make sure `master` is selected as the base and select your forked copy branch as the branch to compare it to and create a pull request. 
